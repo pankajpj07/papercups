@@ -16,7 +16,7 @@ defmodule ChatApi.WidgetSettings.WidgetSetting do
           agent_unavailable_text: String.t() | nil,
           require_email_upfront: boolean() | nil,
           is_open_by_default: boolean() | nil,
-          is_branding_hidden: boolean() | nil,
+          is_x_hidden: boolean() | nil,
           custom_icon_url: String.t() | nil,
           iframe_url_override: String.t() | nil,
           icon_variant: String.t() | nil,
