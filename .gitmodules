@@ -1,0 +1,6 @@
+[submodule "chat-widget"]
+	path = chat-widget
+	url = https://github.com/pankajpj07/chat-widget.git
+[submodule "chat-builder"]
+	path = chat-builder
+	url = https://github.com/pankajpj07/chat-builder.git
