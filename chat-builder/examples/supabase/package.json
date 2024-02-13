@@ -1,0 +1,53 @@
+{
+  "name": "@papercups-io/chat-builder-supabase-example",
+  "homepage": "./",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^5.8.0",
+    "@papercups-io/chat-builder": "file:../..",
+    "@supabase/ui": "^0.23.1",
+    "@testing-library/jest-dom": "file:../../node_modules/@testing-library/jest-dom",
+    "@testing-library/react": "file:../../node_modules/@testing-library/react",
+    "@testing-library/user-event": "file:../../node_modules/@testing-library/user-event",
+    "@types/jest": "file:../../node_modules/@types/jest",
+    "@types/node": "file:../../node_modules/@types/node",
+    "@types/react": "file:../../node_modules/@types/react",
+    "@types/react-dom": "file:../../node_modules/@types/react-dom",
+    "react": "file:../../node_modules/react",
+    "react-dom": "file:../../node_modules/react-dom",
+    "react-scripts": "file:../../node_modules/react-scripts",
+    "typescript": "file:../../node_modules/typescript",
+    "web-vitals": "^1.1.0"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.0.3",
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.35",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.3"
+  }
+}
